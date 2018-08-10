@@ -17,3 +17,29 @@ Improvements:
     2. Path compression. Keep link to root from all nodes on the path.
 
 """
+
+class UnionFind:
+    """
+    Class implements union-find algorithm.
+    Objects must be hashable.
+    """
+
+    def __init__(self):
+        "Class initialization"
+        pass
+
+    def union(self, obj1, obj2):
+        "Make a connection between obj1 and obj2"
+        pass
+
+    def is_connected(self, obj1, obj2):
+        """
+        Check if obj1 and obj2 are connected
+        Args:
+            obj1 (object): first object to connect
+            obj2 (object): second object to connect
+        Returns:
+            True - if objects are connected (directly or via other objects)
+            False - if objects are not connected
+        """
+        pass
